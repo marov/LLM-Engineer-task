@@ -9,3 +9,4 @@
 ## Code
 
 Streamlit app is in `streamlit_app.py` file. It can be run locally with `streamlit run streamlit_app.py` command. It is also deployed on Streamlit Cloud:
+<https://marov-llm-engineer-task-streamlit-app-5xyx5m.streamlit.app>
