@@ -63,12 +63,16 @@ st.markdown("<h3 style='color: blue;'>Upload teplate file</h3>", unsafe_allow_ht
 template = st.file_uploader("1", type=["csv"])
 if template is not None:
     template_df = pd.read_csv(template)
+    with open(template.name, "wb") as f: # we need to save csv files locally. TODO: rewrite to use UploadedFile
+        f.write(template_df.to_csv(index=False).encode("utf-8"))
     st.dataframe(template_df)
 
 st.markdown("<h3 style='color: blue;'>Upload table file</h3>", unsafe_allow_html=True)
 table = st.file_uploader("2", type=["csv"])
 if table is not None:
     table_df = pd.read_csv(table)
+    with open(table.name, "wb") as f: # we need to save csv files locally
+        f.write(table_df.to_csv(index=False).encode("utf-8"))
     st.dataframe(table_df)
     st.markdown("<h3 style='color: brown;'>Mapping of the columns:</h3>", unsafe_allow_html=True)
     _columns = map_columns(pswd, table.name)
