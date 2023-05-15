@@ -91,3 +91,4 @@ if table is not None:
             table_df = transform(table_df)
             st.dataframe(table_df)
             st.markdown("<h3 style='color: green;'>Success!</h3>", unsafe_allow_html=True)
+            st.session_state["code_gen"] = False
