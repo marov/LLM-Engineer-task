@@ -10,3 +10,10 @@
 
 Streamlit app is in `streamlit_app.py` file. It can be run locally with `streamlit run streamlit_app.py` command. It is also deployed on Streamlit Cloud:
 <https://marov-llm-engineer-task-streamlit-app-5xyx5m.streamlit.app>
+
+## Generating synthetic data and fine-tuning the model
+
+I have two notebooks for generating synthetic data and fine-tuning the model:
+
+- `SubZer0_Synthetic.ipynb` - generates synthetic data
+- `SubZer0_Finetune.ipynb` - fine-tunes the model
