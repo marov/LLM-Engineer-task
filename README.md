@@ -15,5 +15,9 @@ Streamlit app is in `streamlit_app.py` file. It can be run locally with `streaml
 
 I have two notebooks for generating synthetic data and fine-tuning the model:
 
-- `SubZer0_Synthetic.ipynb` - generates synthetic data
-- `SubZer0_Finetune.ipynb` - fine-tunes the model
+- `SubZer0_Synthetic.ipynb` - generates synthetic data <a target="_blank" href="https://colab.research.google.com/github/marov/LLM-Engineer-task/blob/main/SubZer0_Synthetic.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+- `SubZer0_Finetune.ipynb` - fine-tunes the model <a target="_blank" href="https://colab.research.google.com/github/marov/LLM-Engineer-task/blob/main/SubZer0_Finetune.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
